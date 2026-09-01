@@ -103,3 +103,6 @@ This project demonstrates the ability to:
 - Optimize SQL queries using indexes
 - Build an Excel dashboard for business reporting
 - Communicate analytical findings clearly
+- ## Dashboard
+
+![E-Commerce Sales Dashboard](dashboard.png)
