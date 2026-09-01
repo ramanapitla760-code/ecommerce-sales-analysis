@@ -13,6 +13,49 @@ This project analyzes sales performance, profitability, customer behavior, produ
 - SQL
 - Data Analysis
 - Data Visualization
+- ## Tools & Technologies
+
+- SQL (MySQL) – Data analysis and business queries
+- Python – Data cleaning, exploratory data analysis and insights
+- Microsoft Excel – Data analysis and dashboard
+- Power BI – Interactive dashboard and business visualization
+
+## Project Components
+
+### SQL Analysis
+Performed SQL analysis to evaluate:
+- Order status and cancellation rate
+- Revenue and profit by category
+- Top products by revenue and profit
+- Top customers by revenue
+- Monthly revenue trends
+- Payment methods
+- Return reasons
+- Repeat customers
+- Data quality issues
+
+### Python Analysis
+Used Python for:
+- Data cleaning and preparation
+- Exploratory data analysis
+- Sales and profitability analysis
+- Identifying trends and business insights
+
+### Excel Analysis
+Created an Excel-based sales and profitability analysis with dashboard visualizations.
+
+### Power BI Dashboard
+Created an interactive Power BI dashboard to analyze:
+- Sales and revenue
+- Profitability
+- Product and category performance
+- Monthly sales trends
+- Customer and order metrics
+- Business KPIs
+
+Power BI report file:
+`ecommerce_analytics_powerbi.pbix`
+![Power BI Dashboard](dashboard.png)
 
 ## Key Analysis
 
