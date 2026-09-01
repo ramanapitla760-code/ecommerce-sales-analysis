@@ -92,6 +92,7 @@ The analysis focuses on:
 
 - `ecommerce_sales_analysis.xlsx` — Excel dashboard and analysis
 - `ecommerce_analysis.sql` — MySQL analysis queries
+- - `ecommerce_analytics_powerbi.pbix` — Power BI interactive dashboard
 - ## SQL Analysis
 
 The SQL analysis includes:
