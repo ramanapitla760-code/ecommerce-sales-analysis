@@ -11,9 +11,9 @@ The project combines **MySQL, Python, Microsoft Excel, and Power BI** to perform
 ## Tools & Technologies
 
 - **SQL (MySQL)** – Data analysis and business queries
-- **Python** – Data cleaning, exploratory data analysis, and insights
+- **Python** – Data cleaning, exploratory data analysis, and business insights
 - **Microsoft Excel** – Data analysis and dashboard creation
-- **Power BI** – Interactive dashboards and business visualization
+- **Power BI** – Interactive dashboard and business visualization
 
 ---
 
@@ -27,7 +27,7 @@ The project combines **MySQL, Python, Microsoft Excel, and Power BI** to perform
 
 ## 1. SQL Analysis
 
-SQL was used to analyze sales, profitability, customers, products, payments, orders, returns, and data quality.
+MySQL was used to analyze sales, profitability, customers, products, payments, orders, returns, cancellations, and data quality.
 
 ### Analysis Performed
 
@@ -50,7 +50,7 @@ SQL was used to analyze sales, profitability, customers, products, payments, ord
 
 ## 2. Python Analysis
 
-Python was used for data preparation, exploratory data analysis, and identifying business insights.
+Python was used for data cleaning, exploratory data analysis, sales and profitability analysis, and identifying business insights.
 
 ### Analysis Performed
 
@@ -64,18 +64,15 @@ Python was used for data preparation, exploratory data analysis, and identifying
 - Trend identification
 - Business insight generation
 
-### Python Libraries
+### Python File
 
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+`ecommerce_sales_analysis.py`
 
 ---
 
 ## 3. Microsoft Excel Analysis
 
-Excel was used to perform sales and profitability analysis and create dashboard visualizations.
+Microsoft Excel was used for sales and profitability analysis and dashboard visualization.
 
 ### Analysis Includes
 
@@ -87,6 +84,10 @@ Excel was used to perform sales and profitability analysis and create dashboard 
 - Customer analysis
 - Dashboard visualization
 
+### Excel File
+
+`E-Commerce Analysis.xlsx`
+
 ---
 
 ## 4. Power BI Dashboard
@@ -95,15 +96,17 @@ An interactive Power BI dashboard was created to provide a visual overview of e-
 
 ### Dashboard KPIs
 
-- **Total Orders:** 50,000
-- **Total Units Sold:** 1,426,549
-- **Total Revenue:** ₹1,48,33,17,929.18
-- **Total Profit:** ₹36,98,56,067.17
-- **Profit Margin:** 24.93%
+| KPI | Value |
+|---|---:|
+| Total Orders | 50,000 |
+| Total Units Sold | 1,426,549 |
+| Total Revenue | ₹1,48,33,17,929.18 |
+| Total Profit | ₹36,98,56,067.17 |
+| Profit Margin | 24.93% |
 
 ### Dashboard Analysis
 
-The dashboard provides analysis of:
+The Power BI dashboard analyzes:
 
 - Sales and revenue
 - Profitability
@@ -114,21 +117,21 @@ The dashboard provides analysis of:
 - Top customers by revenue
 - Business KPIs
 
-### Power BI Dashboard Preview
-
-![Power BI Dashboard](dashboard.png)
-
-### Power BI Report File
-
-The complete Power BI report is available in:
+### Power BI Report
 
 `ecommerce_analytics_powerbi.pbix`
 
 ---
 
+# Dashboard Preview
+
+![E-Commerce Sales Dashboard](dashboard.png)
+
+---
+
 # Key Insights
 
-The analysis focuses on the following business areas:
+The analysis focuses on:
 
 - Overall sales and profitability performance
 - Revenue and profit contribution by product category
@@ -141,7 +144,7 @@ The analysis focuses on the following business areas:
 - Product margin analysis
 - SQL performance optimization
 
-### Dashboard Insights
+### Business Insights
 
 - **Electronics** generates the highest revenue among the analyzed categories.
 - **South** generates the highest regional revenue.
@@ -155,52 +158,53 @@ The analysis focuses on the following business areas:
 |---|---|
 | `ecommerce_analysis.sql` | MySQL analysis queries |
 | `ecommerce_sales_analysis.py` | Python data analysis |
-| `ecommerce_sales_analysis.xlsx` | Excel analysis and dashboard |
+| `E-Commerce Analysis.xlsx` | Excel analysis and dashboard |
 | `ecommerce_analytics_powerbi.pbix` | Power BI interactive dashboard |
 | `dashboard.png` | Power BI dashboard preview |
 
 ---
 
-# Dashboard
+# End-to-End Analysis
 
-The Power BI dashboard provides an interactive view of:
+This project demonstrates an end-to-end data analysis workflow:
 
-- Total orders
-- Total units sold
-- Total revenue
-- Total profit
-- Profit margin
-- Category performance
-- Payment method performance
-- Order status
-- Regional performance
-- Top customers
+### 1. Data Preparation
+Data was prepared for analysis and business reporting.
 
-![E-Commerce Sales Dashboard](dashboard.png)
+### 2. SQL Analysis
+MySQL queries were used to analyze orders, revenue, profit, products, customers, payments, returns, cancellations, and data quality.
 
----
+### 3. Python EDA
+Python was used for data cleaning, exploratory analysis, trend identification, and business insights.
 
-# Business Insights
+### 4. Excel Analysis
+Excel was used for sales and profitability analysis and dashboard visualization.
 
-The project uses multiple analytical tools to transform e-commerce data into meaningful business insights.
+### 5. Power BI Dashboard
+Power BI was used to create an interactive dashboard containing KPIs, category analysis, regional analysis, payment analysis, order status, and customer performance.
 
-The analysis helps evaluate:
-
-- Revenue generation
-- Profitability
-- Product performance
-- Customer contribution
-- Regional performance
-- Payment behavior
-- Returns and cancellations
-- Data quality
+### 6. Business Insights
+The results were used to identify important patterns in sales, profitability, customers, products, regions, and order behavior.
 
 ---
 
 # Conclusion
 
-This project demonstrates an **end-to-end data analysis workflow** using multiple industry-relevant tools.
+This project demonstrates practical experience with multiple data analysis tools and an end-to-end analytical workflow.
 
 **Data → Cleaning → SQL Analysis → Python EDA → Excel Analysis → Power BI Dashboard → Business Insights**
 
-The project demonstrates practical skills in **SQL, Python, Excel, Power BI, data cleaning, exploratory data analysis, data visualization, KPI analysis, and business insight generation.**
+The project covers:
+
+- SQL analysis
+- Python data analysis
+- Excel analysis
+- Power BI dashboard development
+- Data cleaning
+- Exploratory data analysis
+- KPI analysis
+- Data visualization
+- Business insights
+- Sales and profitability analysis
+- Customer and product analysis
+- Data quality analysis
