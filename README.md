@@ -1,50 +1,52 @@
 # E-Commerce Sales Analysis
 
-E-commerce sales and profitability analysis using SQL and Excel.
+E-commerce sales and profitability analysis using SQL and Microsoft Excel.
 
 ## Project Overview
 
 This project analyzes 50,000 e-commerce orders to understand sales performance, profitability, customer contribution, payment methods, order status, product categories, and regional performance.
+
+## Business Questions
+
+- Which product categories generate the highest revenue and profit?
+- Which regions contribute the most revenue?
+- Which payment methods generate the highest revenue and profit?
+- What percentage of orders are completed, cancelled, or pending?
+- Who are the top customers by revenue?
+- What is the overall profitability and profit margin?
 
 ## Tools Used
 
 - SQL
 - Microsoft Excel
 - Pivot Tables
-- Excel Charts
+- Pivot Charts
 - Excel Dashboard
-
-## Key Metrics
-
-| Metric | Value |
-|---|---:|
-| Total Orders | 50,000 |
-| Total Units Sold | 142,649 |
-| Total Revenue | ₹1,48,33,17,929.18 |
-| Total Profit | ₹36,98,56,067.17 |
-| Profit Margin | 24.93% |
-
-## Dashboard Analysis
-
-- Revenue vs Profit by Category
-- Revenue, Profit and Margin by Payment Method
-- Order Status Distribution
-- Regional Revenue, Profit and Margin
-- Top 10 Customers by Revenue
 
 ## Key Insights
 
-1. **Electronics** generates the highest revenue among categories.
-2. **South** generates the highest regional revenue.
-3. **Completed orders** account for approximately 90% of total orders.
-4. Profitability varies across payment methods and regions.
-5. The top customers contribute significantly to overall revenue.
+- Electronics generates the highest revenue among product categories.
+- South generates the highest regional revenue.
+- Completed orders account for approximately 90% of all orders.
+- The overall profit margin is approximately 24.93%.
+- The dashboard highlights the top 10 customers based on revenue contribution.
+
+## Dashboard Preview
+
+![E-Commerce Sales Dashboard](dashboard.png)
 
 ## Project Files
 
-- `E-Commerce Analysis1.xlsx` — Excel dashboard and analysis
-- `README.md` — Project documentation
+- `E-Commerce Analysis1.xlsx` — Excel analysis and interactive dashboard.
+- `dashboard.png` — Dashboard preview.
+- `README.md` — Project documentation.
 
-## Objective
+## Skills Demonstrated
 
-The objective of this project is to demonstrate practical data analysis skills including data aggregation, KPI calculation, business insight generation, and dashboard development using SQL and Excel.
+- Data Analysis
+- SQL
+- Microsoft Excel
+- Data Visualization
+- Pivot Tables
+- Business Insights
+- Dashboard Development
