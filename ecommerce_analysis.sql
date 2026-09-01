@@ -1,6 +1,6 @@
 -- E-Commerce Data Analytics
 -- MySQL analysis queries for portfolio use
--- Database: ecommerce_analytics
+-- Database: ecommerce_sales_analysis
 --
 -- Tables:
 -- customers, products, orders, order_items, payments, returns
@@ -11,7 +11,7 @@
 -- 3. Revenue includes discounts.
 -- 4. Profit = quantity * ((unit_price * (1 - discount)) - unit_cost).
 
-USE ecommerce_analytics;
+USE ecommerce_sales_analysis;
 
 
 -- ============================================================
