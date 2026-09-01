@@ -152,15 +152,15 @@ The analysis focuses on:
 
 ---
 
-# Project Files
+## Project Files
 
 | File | Description |
 |---|---|
-| `ecommerce_analysis.sql` | MySQL analysis queries |
-| `ecommerce_sales_analysis.py` | Python data analysis |
-| `E-Commerce Analysis.xlsx` | Excel analysis and dashboard |
-| `ecommerce_analytics_powerbi.pbix` | Power BI interactive dashboard |
-| `dashboard.png` | Power BI dashboard preview |
+| [ecommerce_analysis.sql](./ecommerce_analysis.sql) | MySQL analysis queries |
+| [ecommerce_sales_analysis.py](./ecommerce_sales_analysis.py) | Python data cleaning, EDA, and analysis |
+| [E-Commerce Analysis.xlsx](./E-Commerce%20Analysis.xlsx) | Excel analysis and dashboard |
+| [ecommerce_analytics_powerbi.pbix](./ecommerce_analytics_powerbi.pbix) | Power BI interactive dashboard |
+| [dashboard.png](./dashboard.png) | Power BI dashboard preview |
 
 ---
 
