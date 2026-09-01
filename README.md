@@ -115,4 +115,4 @@ This project demonstrates the ability to:
 ## Dashboard
 
 ![E-Commerce Sales Dashboard](dashboard.png)
-![E-Commerce Sales Dashboard](dashboard.png)
+
