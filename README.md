@@ -104,5 +104,15 @@ This project demonstrates the ability to:
 - Build an Excel dashboard for business reporting
 - Communicate analytical findings clearly
 - ## Dashboard
+## Project Files
 
+| File | Description |
+|------|-------------|
+| `E-Commerce Analysis1.xlsx` | Excel workbook containing the e-commerce data analysis and dashboard |
+| `ecommerce_analysis.sql` | SQL queries used for business analysis |
+| `dashboard.png` | Preview of the Excel dashboard |
+
+## Dashboard
+
+![E-Commerce Sales Dashboard](dashboard.png)
 ![E-Commerce Sales Dashboard](dashboard.png)
