@@ -1,52 +1,105 @@
-# E-Commerce Sales Analysis
+# E-Commerce Sales & Profitability Analysis
 
 E-commerce sales and profitability analysis using SQL and Microsoft Excel.
 
-## Project Overview
+## 📌 Project Overview
 
-This project analyzes 50,000 e-commerce orders to understand sales performance, profitability, customer contribution, payment methods, order status, product categories, and regional performance.
+This project analyzes an e-commerce dataset to evaluate sales performance, profitability, customer contribution, product performance, order trends, payment methods, returns, and regional performance.
 
-## Business Questions
+The analysis combines SQL-based business analysis with an interactive Excel dashboard to turn raw transactional data into actionable business insights.
 
-- Which product categories generate the highest revenue and profit?
-- Which regions contribute the most revenue?
-- Which payment methods generate the highest revenue and profit?
-- What percentage of orders are completed, cancelled, or pending?
-- Who are the top customers by revenue?
-- What is the overall profitability and profit margin?
+## 🎯 Business Questions
 
-## Tools Used
+- Which products and categories generate the highest revenue and profit?
+- Which customers contribute the most revenue?
+- Which regions generate the highest sales?
+- How do sales and orders change over time?
+- What are the major payment methods and return patterns?
+- What percentage of orders are cancelled?
+- Which products have the strongest profitability?
 
-- SQL
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Excel Dashboard
+## 🛠️ Tools & Skills
 
-## Key Insights
+- **SQL / MySQL**
+  - SELECT, WHERE, GROUP BY, HAVING
+  - JOINs
+  - CTEs
+  - Window Functions
+  - Aggregations
+  - Data quality checks
+  - Indexing and query optimization
 
-- Electronics generates the highest revenue among product categories.
-- South generates the highest regional revenue.
-- Completed orders account for approximately 90% of all orders.
-- The overall profit margin is approximately 24.93%.
-- The dashboard highlights the top 10 customers based on revenue contribution.
+- **Microsoft Excel**
+  - PivotTables
+  - PivotCharts
+  - Dashboard design
+  - Data filtering
+  - KPI analysis
 
-## Dashboard Preview
+## 📊 Key KPIs
 
-![E-Commerce Sales Dashboard](dashboard.png)
+| KPI | Result |
+|---|---:|
+| Completed Orders | 44,890 |
+| Units Sold | 128,132 |
+| Revenue | ₹1.483B |
+| Profit | ₹369.86M |
+| Profit Margin | 24.93% |
+| Average Order Value | ₹36,718.37 |
 
-## Project Files
+> Revenue and profitability KPIs are based on completed orders and use the discount-aware revenue definition.
 
-- `E-Commerce Analysis1.xlsx` — Excel analysis and interactive dashboard.
-- `dashboard.png` — Dashboard preview.
-- `README.md` — Project documentation.
+## 🔎 SQL Analysis
 
-## Skills Demonstrated
+The SQL analysis covers:
 
-- Data Analysis
-- SQL
-- Microsoft Excel
-- Data Visualization
-- Pivot Tables
-- Business Insights
-- Dashboard Development
+1. Order status and cancellation analysis
+2. Revenue and profit calculation
+3. Product and category performance
+4. Top customers by revenue
+5. Monthly sales trends
+6. Payment method analysis
+7. Return analysis
+8. Repeat customer analysis
+9. Data quality checks
+10. SQL performance optimization using indexes
+
+The final SQL analysis uses a consistent business definition for revenue and profit.
+
+## 📈 Excel Dashboard
+
+The Excel dashboard provides a visual view of sales performance and allows analysis of customers, revenue, products, and regional performance.
+
+### Dashboard Preview
+
+![E-Commerce Dashboard](dashboard.png)
+
+## 📂 Project Files
+
+| File | Description |
+|---|---|
+| `E-Commerce Analysis1.xlsx` | Excel analysis and dashboard |
+| `ecommerce_analysis.sql` | SQL analysis queries |
+| `dashboard.png` | Dashboard screenshot |
+| `README.md` | Project documentation |
+
+## 💡 Key Insights
+
+The analysis identified approximately 45K completed orders from 50K total orders, with 44,890 completed orders and 5,110 cancelled orders.
+
+The completed-order analysis generated approximately ₹1.483B in revenue and ₹369.86M in profit, resulting in a 24.93% profit margin.
+
+Customer analysis also identified 9,414 repeat customers, highlighting a substantial returning-customer base.
+
+## 🚀 Project Outcome
+
+This project demonstrates the ability to:
+
+- Clean and validate transactional data
+- Translate business questions into SQL queries
+- Analyze revenue and profitability
+- Identify high-value customers and products
+- Perform time-based and regional analysis
+- Optimize SQL queries using indexes
+- Build an Excel dashboard for business reporting
+- Communicate analytical findings clearly
